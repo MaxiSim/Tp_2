@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from play import play
+
 def menu ()->int:
     '''Selects options from prompt and returns game mode or quit
     '''
@@ -7,7 +9,7 @@ def menu ()->int:
     while mode != '1' and mode != 'play' and mode != '2' and mode != 'see words list' and mode != '3' and mode != 'quit':
         mode = input('Ingresó un modo inválido, intnte nuevamente > ')
     if  mode == '1' or mode == 'play':
-        hangman_menu()
+        play()
     elif mode == '2' or mode =='see words list':
         see_list()
     elif mode == 3 or mode == 'quit':

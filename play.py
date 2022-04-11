@@ -1,3 +1,6 @@
+
+from menu import menu
+
 def play():
   select_option = input('''Please select an option to continue:
                            1. Human Hangman
@@ -16,7 +19,7 @@ def play():
     print('computer')
     #computer_hangman()
   elif select_option == '3' or select_option == 'go back':
-    print('go back')
+    menu()
     #go_back()
 
   return None
