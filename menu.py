@@ -3,9 +3,8 @@
 from see_list import see_list
 from human_hangman import human_hangman
 from computer_hangman import computer_hangman
+from go_back import go_back
 
-def go_back():
-      print('back')
 
 def menu_ppal():
       menu('MENU', list(funciones_menu.keys()))
