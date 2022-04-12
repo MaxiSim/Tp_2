@@ -1,4 +1,4 @@
-words = ('a',
+ENwords = ('a',
          'aa',
          'aaa',
          'aachen',
