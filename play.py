@@ -22,4 +22,3 @@ def play():
     menu()
     #go_back()
 
-  return None
