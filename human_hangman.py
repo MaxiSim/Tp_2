@@ -18,4 +18,3 @@ def human_hangman():
     
     print(selected_word)
     
-human_hangman()
