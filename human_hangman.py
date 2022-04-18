@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import random
-from turtle import left 
 from en_US import ENwords
-from es_ES import ESwords
+
 
 def random_word():
       '''
