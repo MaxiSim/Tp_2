@@ -3,8 +3,12 @@
 from see_list import see_list
 from human_hangman import human_hangman
 from computer_hangman import computer_hangman
-from go_back import go_back
 
+def go_back():
+      '''
+      Goes back to the main menu.s
+      '''
+      call()
 
 def menu_ppal():
       '''
