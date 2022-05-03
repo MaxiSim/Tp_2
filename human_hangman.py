@@ -53,7 +53,7 @@ def human_hangman():
         print('')
         print('You have, ', (left_tries), 'tries left.')
         print(' '.join(dash_word_list), (used_letters))
-        guess_letter = input('Enter a letter or word: > ')
+        guess_letter = input('Enter a letter or word: > ').lower()
         
         if len(guess_letter) == 1:
           if guess_letter in new_word:
