@@ -30,11 +30,16 @@ def play():
       funciones_menu_play[funcplay]()
 
 def menu(prompt: str, opciones: list) -> str :
-      print(prompt)
-      for i, opcion in enumerate(opciones):
-        print(f'{i + 1}. {opcion}')
-      
-      return opciones[int(input("> ")) - 1]
+      while True:   
+         print(prompt)
+         for i, opcion in enumerate(opciones):
+            print(f'{i + 1}. {opcion}')
+         selected = int(input('> '))
+         if selected != 1 and selected != 2 and selected != 3:
+            print('That is not a valid option. Try again.')
+            continue
+         else:    
+            return opciones[selected - 1]
 
 def call():
       '''
